@@ -1,4 +1,17 @@
 #!/usr/bin/env bash
+#===============================================================================
+#         FILE: falsecon.sh
+#
+#        USAGE: ./falsecon.sh
+#
+#  DESCRIPTION: A basic script to return a critical code.
+#
+#       AUTHOR: Ryan Quinn (rquinn@op5.com)
+# ORGANIZATION: OP5, Inc.
+#      VERSION: 1.0
+#      CREATED: 07/27/2018 15:14:21
+#      LICENSE: Apache v2.0
+#===============================================================================
 
 DATETIME=$(date +%F:%T)
 LOGFILE=./false-activity.log
